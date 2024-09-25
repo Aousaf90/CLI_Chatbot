@@ -17,7 +17,6 @@ def question(selected_company):
 
     llm = ChatOpenAI(
         model="gpt-3.5-turbo",
-        api_key="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",
         temperature=0
     )
     
